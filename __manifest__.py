@@ -30,8 +30,8 @@ Use Cases:
         'security/security.xml',
         'security/ir.model.access.csv',
         'data/ir_cron_data.xml',
-        'views/client_management_views.xml',
         'views/client_status_views.xml',
+        'views/client_management_views.xml',
         'views/menu_views.xml',
     ],
     'assets': {
