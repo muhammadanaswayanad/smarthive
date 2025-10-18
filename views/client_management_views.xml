@@ -39,7 +39,7 @@
                     </header>
                     <sheet>
                         <div class="oe_button_box" name="button_box">
-                            <button class="oe_stat_button" type="action" name="%(action_smarthive_client_status)d" icon="fa-list-alt" context="{'default_client_id': active_id}">
+                            <button class="oe_stat_button" type="action" name="%(action_smarthive_client_status)d" icon="fa-list-alt" context="{'default_client_id': id}">
                                 <div class="o_field_widget o_stat_info">
                                     <span class="o_stat_text">Status Log</span>
                                 </div>
