@@ -1,0 +1,54 @@
+/* SmartHive Client Management Styles */
+
+.o_kanban_record_has_warning {
+    border-left: 4px solid #f0ad4e !important;
+}
+
+.smarthive_blocked_client {
+    background-color: #f2dede !important;
+    border-color: #ebccd1 !important;
+}
+
+.smarthive_overdue_client {
+    background-color: #fcf8e3 !important;
+    border-color: #faebcc !important;
+}
+
+.smarthive_status_success {
+    color: #3c763d;
+}
+
+.smarthive_status_warning {
+    color: #8a6d3b;
+}
+
+.smarthive_status_error {
+    color: #a94442;
+}
+
+.smarthive_dashboard {
+    padding: 20px;
+}
+
+.smarthive_dashboard .o_dashboard_common {
+    margin-bottom: 20px;
+}
+
+.smarthive_client_card {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.smarthive_client_card.blocked {
+    border-left: 4px solid #d9534f;
+}
+
+.smarthive_client_card.warning {
+    border-left: 4px solid #f0ad4e;
+}
+
+.smarthive_client_card.success {
+    border-left: 4px solid #5cb85c;
+}

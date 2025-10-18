@@ -1,0 +1,5 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_smarthive_client_user,smarthive.client user,model_smarthive_client,group_smarthive_user,1,0,0,0
+access_smarthive_client_manager,smarthive.client manager,model_smarthive_client,group_smarthive_manager,1,1,1,1
+access_smarthive_client_status_user,smarthive.client.status user,model_smarthive_client_status,group_smarthive_user,1,0,0,0
+access_smarthive_client_status_manager,smarthive.client.status manager,model_smarthive_client_status,group_smarthive_manager,1,1,1,0

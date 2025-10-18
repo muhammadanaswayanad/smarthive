@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        
+        <!-- Main Menu -->
+        <menuitem id="menu_smarthive_root" 
+                  name="SmartHive" 
+                  web_icon="smarthive,static/description/icon.png"
+                  sequence="10"/>
+        
+        <!-- Client Management Menu -->
+        <menuitem id="menu_smarthive_clients" 
+                  name="Clients"
+                  parent="menu_smarthive_root"
+                  sequence="10"/>
+        
+        <menuitem id="menu_smarthive_client_management" 
+                  name="Client Management"
+                  parent="menu_smarthive_clients"
+                  action="action_smarthive_client"
+                  sequence="10"/>
+        
+        <menuitem id="menu_smarthive_client_status" 
+                  name="Status Logs"
+                  parent="menu_smarthive_clients"
+                  action="action_smarthive_client_status"
+                  sequence="20"/>
+        
+        <!-- Configuration Menu -->
+        <menuitem id="menu_smarthive_config" 
+                  name="Configuration"
+                  parent="menu_smarthive_root"
+                  groups="base.group_system"
+                  sequence="90"/>
+        
+        <menuitem id="menu_smarthive_settings" 
+                  name="Settings"
+                  parent="menu_smarthive_config"
+                  action="base.action_res_config_settings"
+                  groups="base.group_system"
+                  sequence="10"/>
+        
+    </data>
+</odoo>
