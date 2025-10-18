@@ -64,7 +64,7 @@
                                 <field name="odoo_version"/>
                                 <field name="client_addon_version"/>
                             </group>
-                            <group string="Connection & Status">
+                            <group string="Connection &amp; Status">
                                 <field name="connection_status"/>
                                 <field name="last_connection"/>
                                 <field name="is_blocked"/>
